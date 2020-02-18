@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WeSaltLogo</title>
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+        }
+
+        .tbl-group {
+            display: block;
+            width: 100%;
+            height: 300px;
+            overflow: auto;
+        }
+
+        .tbl {
+            width: 100%;
+            table-layout: fixed;
+        }
+        .tbl td {
+            width: 300px;
+            height: 80px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="tbl-group">
+        <table class="tbl">
+            <tbody class="tby">
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>10</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="./ZDSupport.js"></script>
+    <script>
+        var options = {
+                style: {
+                    backgroundColor: "yellowgreen"
+                }
+            },
+            options1 = {
+                bottom: '90px',
+                style: {
+                    backgroundColor: "pink"
+                }
+            },
+            options2 = {
+                left: '10px',
+                style: {
+                    backgroundColor: "red"
+                }
+            }
+        window.onload = function () {
+            var logo1 = new WeSaltLogo(options);
+            var logo2 = new WeSaltLogo(options1);
+            var logo3 = new WeSaltLogo(options2);
+        }
+    </script>
+</body>
+
+</html>
